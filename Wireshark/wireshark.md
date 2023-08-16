@@ -23,20 +23,20 @@ You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 ### IP Filters
 
 - **Config Server**
-    - ip.addr == 52.34.19.207 || ip.addr == 52.25.203.99 || ip.addr == 35.162.57.252
+    - `ip.addr == 52.34.19.207 || ip.addr == 52.25.203.99 || ip.addr == 35.162.57.252`
 - **Login Server**
-    - ip.addr == 52.39.75.155 || ip.addr == 50.112.145.98 || ip.addr == 54.189.212.136
+    - `ip.addr == 52.39.75.155 || ip.addr == 50.112.145.98 || ip.addr == 54.189.212.136`
 - **Matchmaker-Social Server**
-    - ip.addr == 35.81.159.9 || ip.addr == 44.238.116.60 || ip.addr == 34.218.86.243
+    - `ip.addr == 35.81.159.9 || ip.addr == 44.238.116.60 || ip.addr == 34.218.86.243`
 - **Matchmaker-Arena Server**
-    - ip.addr == 34.210.19.254 || ip.addr == 54.70.167.1 || ip.addr == 52.38.182.192
+    - `ip.addr == 34.210.19.254 || ip.addr == 54.70.167.1 || ip.addr == 52.38.182.192`
 - **Matchmaker-Combat Server**
-    - ip.addr == 35.155.72.191 || ip.addr == 50.112.132.188 || ip.addr == 44.238.188.63
+    - `ip.addr == 35.155.72.191 || ip.addr == 50.112.132.188 || ip.addr == 44.238.188.63`
 - **Transaction Server**
-    - ip.addr == 52.88.116.4 || ip.addr == 52.34.202.62 || ip.addr == 34.211.159.73
+    - `ip.addr == 52.88.116.4 || ip.addr == 52.34.202.62 || ip.addr == 34.211.159.73`
 - **API Server**
-    - ip.addr == 54.230.31.93 || ip.addr == 54.230.31.12 || ip.addr == 54.230.31.5 || ip.addr == 54.230.31.73
+    - `ip.addr == 54.230.31.93 || ip.addr == 54.230.31.12 || ip.addr == 54.230.31.5 || ip.addr == 54.230.31.73`
 - **Graph.Oculus Server**
-    - ip.addr == 31.13.88.54
+    - `ip.addr == 31.13.88.54`
 
 [pcaps]: https://drive.google.com/file/d/1IAu0ZZuZrNNiwc7CzOleWvMZtFdJ2uUk/view?usp=sharing
