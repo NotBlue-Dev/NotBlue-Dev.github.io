@@ -1,7 +1,7 @@
 title: Echo Custom Server Doc
 description: All tools and documentations about Echo Custom Server
 theme: just-the-docs
-
+favicon_ico: "/assets/images/disc.ico"
 url: https://notblue-dev.github.io/
 
 aux_links:
