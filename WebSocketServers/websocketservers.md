@@ -15,12 +15,16 @@ The majority of these servers will listen on:
 - `127.0.0.1:8002` for Transaction
 - `127.0.0.1:8003` for Config
 
+### Config
+
 In order for your game to send data to these locally hosted servers, you have to create a `config.json` file in the `[...]\ready-at-dawn-echo-arena\_local` folder.
 You can find this `config.json` file right there : [config.json]
 
+### Local WebSocket Servers
+
 - **C# WebSocket Server**
     - Simply create a .NET6 C# project, add the `Fleck` NuGet Package and replace the default `Program.cs` with this one: [Program.cs]
-    - You can choose which server(s) you want to start by calling `StartConfigServer()`, `StartLoginServer()`, `StartMatchmakerServer()` or `StartTransactionServer`
+    - You can choose which server(s) you want to start by calling `StartConfigServer()`, `StartLoginServer()`, `StartMatchmakerServer()` or `StartTransactionServer()`
 - **NodeJS WebSocket Server**
     - Download [server.js] and [package.json]
     - Run `npm i package.json`
