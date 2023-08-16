@@ -2,7 +2,6 @@
 layout: default
 title: Web Socket Servers
 nav_order: 2
-has_children: true
 ---
 
 # WebSocketServers
@@ -15,6 +14,7 @@ The majority of these servers will listen on:
 - `127.0.0.1:8001` for Matchmaking
 - `127.0.0.1:8002` for Transaction
 - `127.0.0.1:8003` for Config
+
 In order for your game to send data to these locally hosted servers, you have to create a `config.json` file in the `[...]\ready-at-dawn-echo-arena\_local` folder.
 You can find this `config.json` file right there : [config.json]
 
