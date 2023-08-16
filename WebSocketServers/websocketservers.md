@@ -14,8 +14,12 @@ Here you can find multiple scripts / project that emulates those WebSocket serve
     - Simply create a .NET6 C# project, add the `Fleck` NuGet Package and replace the default `Program.cs` with this one: [Program.cs]
     - 
 - **NodeJS WebSocket Server**
-    - rrrrr
+    - Download [server.js] and [package.json]
+    - npm i package.json
+    - node server.js
 - **Python3 WebSocket Server**
     - fffff
 
 [Program.cs]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/CSharpWebSocket/Program.cs
+[server.js]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/NodeJSWebsocket/server.js
+[package.json]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/NodeJSWebsocket/package.json
