@@ -1,0 +1,7 @@
+{
+    "publisher_lock": "fuck_boz",
+    "loginservice_host": "ws://localhost:8000",
+    "matchingservice_host": "ws://localhost:8001",
+    "transactionservice_host": "ws://localhost:8002",
+    "configservice_host": "ws://localhost:8003",
+  }

@@ -18,8 +18,13 @@ Here you can find multiple scripts / project that emulates those WebSocket serve
     - npm i package.json
     - node server.js
 - **Python3 WebSocket Server**
-    - fffff
+    - Download [WS.py]
+    - Run `pip install simple-websocket-server`
+    - Run `py WS.py desiredPort`
+    - You can choose the port to run the WS on by passing it as an argument
 
+[config.json]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/config.json
 [Program.cs]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/CSharpWebSocket/Program.cs
 [server.js]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/NodeJSWebsocket/server.js
 [package.json]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/NodeJSWebsocket/package.json
+[WS.py]: https://github.com/NotBlue-Dev/NotBlue-Dev.github.io/blob/main/Files/WebSocketServers/PythonWebSocket/WS.py
