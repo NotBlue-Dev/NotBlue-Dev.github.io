@@ -2,15 +2,15 @@
 layout: default
 title: Wireshark
 nav_order: 3
-has_children: true
+#has_children: true
 ---
 
 # Wireshark
 
-Wireshark allow us to capture and analyze network traffic. 
+[Wireshark] allow us to capture and analyze network traffic. 
 Here you can find IP filters for the different WS of Echo Arena as well as some pcaps from before the shutdown.
 
-### Pcaps
+## Pcaps
 
 You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 
@@ -20,7 +20,7 @@ You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 - You can click on a packet and get the dataFrame in the bottom panel
 - Those dataFrame can be used with the local websockets to simulate the servers
 
-### IP Filters
+## IP Filters
 
 - **Config Server**
     - `ip.addr == 52.34.19.207 || ip.addr == 52.25.203.99 || ip.addr == 35.162.57.252`
@@ -39,4 +39,20 @@ You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 - **Graph.Oculus Server**
     - `ip.addr == 31.13.88.54`
 
+## Usefull findings
+
+### Matchmaker
+
+The dataframe sent before the endpoint dataframe can be modified to change the server the game connects to
+Here is an exemple of what contains the dataframe
+
+```
+          13 239 17 183 (each byte as decimal)
+          ^^ ^^  ^^ ^^
+0acbcd4d  0d ef  11 b7  1a8d 0000
+^         ^^ ^^  ^^ ^^   ^    ^
+?              IP       port padding?
+```
+
 [pcaps]: https://drive.google.com/file/d/1IAu0ZZuZrNNiwc7CzOleWvMZtFdJ2uUk/view?usp=sharing
+[Wireshark]: https://www.wireshark.org/
