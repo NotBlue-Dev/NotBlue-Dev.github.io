@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Custom Matchmaker Decho
-parent: UseCase
+parent: Use Case
 nav_order: 2
 ---
 
