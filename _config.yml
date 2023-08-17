@@ -4,7 +4,7 @@ theme: just-the-docs
 favicon_ico: "/assets/images/disc.ico"
 url: https://notblue-dev.github.io/
 callouts:
-  highlight:
+  warning:
     title: Warning
     color: yellow
 

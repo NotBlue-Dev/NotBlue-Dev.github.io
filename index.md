@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-{: .highlight }
+{: .warning }
 This community made documentation is a work in progress (Use Case are not done). If you would like to contribute, please feel free to make a pull request on [GitHub](https://github.com/NotBlue-Dev/NotBlue-Dev.github.io).
 
 # EchoVR custom server
