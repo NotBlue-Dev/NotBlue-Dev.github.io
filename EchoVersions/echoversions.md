@@ -6,15 +6,15 @@ nav_order: 8
 
 # Echo VR Versions (PC)
 
-## Downloads
+You can use different tools to download different versions of Echo VR. The latest EchoVR version won't work for our purposes.
 
-### Version 34.4.631547.1
+## Oculus DB
 
-Download : [Google Drive]
+[OculusDB] is a website that allows you to download different versions of Oculus games. You can use it to download different versions of Echo VR.
 
 ## Oculus Downgrader
 
 To download different versions of Echo VR, you can use the [Oculus Downgrader] by ComputerElite.
 
 [Oculus Downgrader]: https://github.com/ComputerElite/Oculus-downgrader/releases
-[Google Drive]: https://drive.google.com/drive/folders/1cd6B0Xg4wVMzjGwO9Wh0yaUOUFKpyZhE
+[OculusDB]: https://oculusdb.rui2015.me/

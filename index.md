@@ -15,8 +15,8 @@ This documentation contains all the current findings, tools, and resources that 
 
 ## Simplified Roadmap
 - [x] [Bypass Login]
-- [ ] Matchmaking < We are here
-- [ ] Game server
+- [x] Matchmaking 
+- [ ] Game servers < We are here
 
 [Bypass Login]: https://notblue-dev.github.io/Patches/patches.html
 
