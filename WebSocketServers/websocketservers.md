@@ -7,7 +7,7 @@ nav_order: 2
 # WebSocketServers
 
 The Echo Arena client is using WebSockets to gather information like the main menu, logging, game servers IPs and other stuff.
-Here you can find multiple scripts / project that emulates those WebSocket servers.
+Here you can find multiple scripts / projects that emulates those WebSocket servers.
 
 The majority of these servers will listen on:
 - `127.0.0.1:8000` for Login
