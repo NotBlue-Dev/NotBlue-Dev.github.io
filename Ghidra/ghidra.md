@@ -10,11 +10,11 @@ nav_order: 4
 
 ## Interesting Functions
 
-- [140f4c480 : LoadAllScript](#140f4c480-loadallscript)
-- [140157bd0 : ConfigClientOrLocalServerLoaderAndPortRetry](#140157bd0-configclientorlocalserverloaderandportretry)
-- [140181730 : Login](#140181730-login)
-- [14017ef10 : PotentialStartLogin](#14017ef10-potentialstartlogin)
-- [1401b8650 : StartAPIAndCheckService](#1401b8650-startapiandcheckservice)
+- [140f4c480 : LoadAllScript](#140f4c480-loads-all-script-)
+- [140157bd0 : ConfigClientOrLocalServerLoaderAndPortRetry](#140157bd0-configclientorlocalserverloaderandportretry-)
+- [140181730 : Login](#140181730-login-)
+- [14017ef10 : PotentialStartLogin](#14017ef10-potentialstartlogin-)
+- [1401b8650 : StartAPIAndCheckService](#1401b8650-startapiandcheckservice-)
 
 ## Useful Findings
 
@@ -32,7 +32,7 @@ Conditional Call -> PotentialStartLogin
 Call -> StartAPIAndCheckService
 ```
 
-#### 140181730 Login : 
+#### 140181730 Login :
 ```Call wss://login.readyatdawn....```
 
 #### 14017ef10 PotentialStartLogin :
