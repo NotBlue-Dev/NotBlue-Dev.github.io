@@ -3,6 +3,10 @@ description: All tools and documentations about Echo Custom Server
 theme: just-the-docs
 favicon_ico: "/assets/images/disc.ico"
 url: https://notblue-dev.github.io/
+callouts:
+  highlight:
+    title: Warning
+    color: yellow
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template

@@ -2,15 +2,10 @@
 title: Home
 layout: home
 nav_order: 1
-callouts:
-  highlight:
-    title: Warning
-    color: yellow
 ---
 
 {: .highlight }
-This community made documentation is a work in progress. If you would like to contribute, please
-feel free to make a pull request on [GitHub](https://github.com/NotBlue-Dev/NotBlue-Dev.github.io).
+This community made documentation is a work in progress (Use Case are not done). If you would like to contribute, please feel free to make a pull request on [GitHub](https://github.com/NotBlue-Dev/NotBlue-Dev.github.io).
 
 # EchoVR custom server
 This project has been created to work on creating custom servers for EchoVR. This project is still in development and nothing is ready for public use yet.
