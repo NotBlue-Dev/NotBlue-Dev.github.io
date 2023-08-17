@@ -15,6 +15,14 @@ The majority of these servers will listen on:
 - `127.0.0.1:8002` for Transaction
 - `127.0.0.1:8003` for Config
 
+### EchoVR WSS links
+- `wss://login.readyatdawn.com/rad/rad15_live`
+- `wss://config.readyatdawn.com/rad/rad15_live`
+- `wss://transaction.readyatdawn.com/rad/rad15_live`
+- `wss://matchmaker-ai.readyatdawn.com`
+- `wss://matchmaker-social.readyatdawn.com`
+- `wss://matchmaker-combat.readyatdawn.com`
+
 ### Config
 
 In order for your game to send data to these locally hosted servers, you have to create a `config.json` file in the `[...]\ready-at-dawn-echo-arena\_local` folder.
