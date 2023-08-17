@@ -2,6 +2,10 @@
 title: Home
 layout: home
 nav_order: 1
+callouts:
+  highlight:
+    title: Warning
+    color: yellow
 ---
 
 {: .highlight }
@@ -12,9 +16,12 @@ feel free to make a pull request on [GitHub](https://github.com/NotBlue-Dev/NotB
 This project has been created to work on creating custom servers for EchoVR. This project is still in development and nothing is ready for public use yet.
 You can find the discord server [here](https://discord.gg/FAp64326as).
 
+This documentation contains all the current findings, tools, and resources that have been found and used by the community.
+
 ## Simplified Roadmap
 - [x] [Bypass Login]
 - [ ] Matchmaking < We are here
 - [ ] Game server
 
 [Bypass Login]: https://notblue-dev.github.io/Patches/patches.html
+

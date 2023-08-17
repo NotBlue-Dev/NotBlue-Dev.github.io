@@ -16,7 +16,7 @@ You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 
 - Open those pcaps in Wireshark `File -> Open`
 - To decrypt the traffic you need to add the ssl keys in `Edit -> Preferences -> Protocols -> SSL -> (Pre)-Master-Secret log filename`
-- You can filters the packets with the IP filters below
+- You can filter the packets with the IP filters below
 - You can click on a packet and get the dataFrame in the bottom panel
 - Those dataFrame can be used with the local websockets to simulate the servers
 
@@ -39,12 +39,12 @@ You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 - **Graph.Oculus Server**
     - `ip.addr == 31.13.88.54`
 
-## Usefull findings
+## Useful findings
 
 ### Matchmaker
 
 The dataframe sent before the endpoint dataframe can be modified to change the server the game connects to
-Here is an exemple of what contains the dataframe
+Here is an example of what contains the dataframe
 
 ```
           13 239 17 183 (each byte as decimal)

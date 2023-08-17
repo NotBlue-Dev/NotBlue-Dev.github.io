@@ -2,7 +2,7 @@
 layout: default
 title: Repositories
 nav_order: 6
-has_children: true
+#has_children: true
 ---
 
 # Repositories
@@ -11,8 +11,7 @@ This is a list of all the useful repositories for this project.
 
 ## Decho
 
-[Decho] is a custom implementation of the Echo VR APIs allowing us to replace the current
-matchmaking server with this one.
+[Decho] is a custom implementation of the Echo VR APIs allowing us to replace the current matchmaking server with this one.
 
 ## Project Astra
 
