@@ -6,18 +6,18 @@ nav_order: 3
 
 # Wireshark
 
-[Wireshark] allow us to capture and analyze network traffic. 
+[Wireshark] allows us to capture and analyze network traffic. 
 Here you can find IP filters for the different WS of Echo Arena as well as some pcaps from before the shutdown.
 
 ## Pcaps
 
-You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
+You can find pcaps and SSL keys for lobby/combat/arena here: [pcaps]
 
 - Open those pcaps in Wireshark `File -> Open`
-- To decrypt the traffic you need to add the ssl keys in `Edit -> Preferences -> Protocols -> SSL -> (Pre)-Master-Secret log filename`
+- To decrypt the traffic you need to add the SSL keys in `Edit -> Preferences -> Protocols -> SSL -> (Pre)-Master-Secret log filename`
 - You can filter the packets with the IP filters below
 - You can click on a packet and get the dataFrame in the bottom panel
-- Those dataFrame can be used with the local websockets to simulate the servers
+- Those dataFrames can be used with the local websockets to simulate the servers
 
 ## IP Filters
 
@@ -42,8 +42,8 @@ You can find pcaps and ssl keys for lobby/combat/arena here : [pcaps]
 
 ### Matchmaker
 
-The dataframe sent before the endpoint dataframe can be modified to change the server the game connects to
-Here is an example of what contains the dataframe
+The dataframe sent before the endpoints dataframe can be modified to change the server the game connects to.
+Here is an example of what contains the dataframe:
 
 ```
           13 239 17 183 (each byte as decimal)

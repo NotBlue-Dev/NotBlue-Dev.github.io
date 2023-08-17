@@ -6,7 +6,7 @@ nav_order: 4
 
 # Ghidra
 
-[Ghidra] is a free and open-source software reverse engineering allowing us to decompile the game client.
+[Ghidra] is a free and open-source software for reverse engineering, allowing us to decompile the game client.
 
 ## Interesting Functions
 
